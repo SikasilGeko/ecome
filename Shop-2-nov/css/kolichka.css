@@ -1,0 +1,428 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+
+.main {
+  max-width: 1100px;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  margin-top: 140px;
+  margin-bottom: 100px;
+
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-title {
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 18px;
+}
+
+.checkout-grid {
+  display: grid;
+
+  grid-template-columns: 1fr 350px;
+  column-gap: 12px;
+
+
+  align-items: start;
+}
+
+@media (max-width: 1000px) {
+  .main {
+    max-width: 500px;
+  }
+
+  .checkout-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.cart-item-container,
+.payment-summary {
+  border: 1px solid rgb(222, 222, 222);
+  border-radius: 4px;
+  padding: 18px;
+}
+
+.cart-item-container {
+  margin-bottom: 12px;
+}
+
+.payment-summary {
+  padding-bottom: 5px;
+}
+
+@media (max-width: 1000px) {
+  .payment-summary {
+
+    grid-row: 1;
+    margin-bottom: 12px;
+  }
+}
+
+.delivery-date {
+  color: rgb(0, 118, 0);
+  font-weight: 700;
+  font-size: 19px;
+  margin-top: 5px;
+  margin-bottom: 22px;
+}
+
+.cart-item-details-grid {
+  display: grid;
+
+  grid-template-columns: 100px 1fr 1fr;
+  column-gap: 25px;
+}
+
+@media (max-width: 1000px) {
+  .cart-item-details-grid {
+    grid-template-columns: 100px 1fr;
+    row-gap: 30px;
+  }
+}
+
+.product-image {
+  max-width: 100%;
+  max-height: 120px;
+
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product-name {
+  font-weight: 700;
+  margin-bottom: 8px;
+
+}
+
+.product-price {
+  color: rgb(177, 39, 4);
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.product-quantity .link-primary {
+  margin-left: 3px;
+}
+
+@media (max-width: 1000px) {
+  .delivery-options {
+
+    grid-column: 1 / span 2;
+  }
+}
+
+.delivery-options-title {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.delivery-option {
+  display: grid;
+  grid-template-columns: 24px 1fr;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.delivery-option-input {
+  margin-left: 0px;
+  cursor: pointer;
+}
+
+.delivery-option-date {
+  color: rgb(0, 118, 0);
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+
+.delivery-option-price {
+  color: rgb(120, 120, 120);
+  font-size: 15px;
+}
+
+.payment-summary-title {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.payment-summary-row {
+  display: grid;
+
+  grid-template-columns: 1fr auto;
+
+  font-size: 15px;
+  margin-bottom: 9px;
+}
+
+.payment-summary-money {
+  text-align: right;
+}
+
+.subtotal-row .payment-summary-money {
+  border-top: 1px solid rgb(222, 222, 222);
+}
+
+.subtotal-row div {
+  padding-top: 9px;
+}
+
+.total-row {
+  color: rgb(177, 39, 4);
+  font-weight: 700;
+  font-size: 18px;
+
+  border-top: 1px solid rgb(222, 222, 222);
+  padding-top: 18px;
+}
+
+.place-order-button {
+  width: 100%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 8px;
+
+  margin-top: 11px;
+  margin-bottom: 15px;
+}
+
+.Nachalo {
+  padding-right: 6%;
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+  text-wrap: nowrap;
+  font-family: "PT Serif", serif;
+}
+
+.Pazaruvaituk {
+  font-size: 30px;
+  text-wrap: nowrap;
+  text-decoration: none;
+  color: black;
+  font-family: "PT Serif", serif;
+}
+
+
+
+.Zanas {
+  text-wrap: nowrap;
+  font-size: 30px;
+  padding-left: 6%;
+  padding-right: 18px;
+  font-family: "PT Serif", serif;
+  text-decoration: none;
+  color: black;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 80px;
+  border: 1px;
+  border-color: rgb(234, 234, 234);
+  border-style: solid;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.div-opcii {
+  display: flex;
+  margin-right: 4%;
+  width: 24%;
+  box-sizing: border-box;
+}
+
+.logo {
+  padding-left: 2%;
+  font-size: 40px;
+  font-family: "PT Serif", serif;
+}
+
+.Cart-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.tires {
+  width: 30px;
+  height: 3px;
+  background-color: black;
+  margin: 6px 0;
+}
+
+.place-order-button {
+  border: none;
+  background-color: rgb(92, 151, 53);
+  color: white;
+}
+
+.dropdown-toggle {
+  background-color: rgb(92, 151, 53) !important;
+  border: 0 !important;
+  border-style: solid;
+  width: 90px;
+
+}
+
+
+
+.dropdown {
+  border: 0;
+  border-style: solid;
+  width: 50px;
+}
+
+
+
+
+@media only screen and (max-width: 575px) and (min-width: 100px) {
+  .div-opcii {
+    display: none !important;
+    padding-right: 2%;
+  }
+
+  .logo {
+
+    font-size: 25px;
+    font-family: "Unna", serif;
+    display: flex;
+    color: black;
+  }
+
+  .white {
+    background-color: white;
+
+    margin-top: 5%;
+
+
+  }
+
+  .cena-koli {
+    display: inline-block;
+    font-size: 16px;
+    color: rgb(92, 151, 53);
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+}
+
+@media only screen and (max-width: 2632px) and (min-width: 2376px) {
+
+
+
+
+  .div-opcii {
+    display: flex;
+
+    width: 20%;
+    box-sizing: border-box;
+  }
+
+
+
+}
+
+@media only screen and (max-width: 2376px) and (min-width: 2120px) {
+
+
+
+
+
+  .div-opcii {
+    display: flex;
+    margin-right: 5%;
+    width: 23%;
+    box-sizing: border-box;
+  }
+
+
+
+
+
+}
+
+
+
+@media only screen and (max-width: 2120px) and (min-width: 17600px) {
+
+
+
+
+
+
+  .div-opcii {
+    display: flex;
+    margin-right: 9%;
+    width: 24%;
+    box-sizing: border-box;
+  }
+
+
+
+
+}
+
+
+@media only screen and (max-width: 1759px) and (min-width: 1640px) {
+
+
+
+
+  .div-opcii {
+    display: flex;
+    margin-right: 11%;
+    width: 24%;
+    box-sizing: border-box;
+  }
+
+}
+
+
+@media only screen and (max-width: 1639px) and (min-width: 1545px) {
+
+
+
+
+  .div-opcii {
+    display: flex;
+    margin-right: 13%;
+    width: 24%;
+    box-sizing: border-box;
+  }
+
+
+}
+
+@media only screen and (max-width: 1543px) and (min-width: 100px) {
+
+
+
+  .cena-koli {
+    display: inline-block;
+    font-size: 16px;
+    color: rgb(92, 151, 53);
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .div-opcii {
+    display: flex;
+    margin-right: 17%;
+    width: 24%;
+    box-sizing: border-box;
+  }
+}

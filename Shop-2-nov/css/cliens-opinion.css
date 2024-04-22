@@ -1,0 +1,48 @@
+.clients-main {
+    margin-top: 5%;
+
+    margin-bottom: 5%;
+}
+
+.Head-client {
+    text-align: center;
+}
+
+.semi-coomas {
+    color: grey;
+    font-size: 100px;
+}
+
+.clients-photo2 {
+    border-radius: 18px;
+}
+
+.clients-opinion-main {
+    display: flex;
+}
+
+.main-div-opinion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1fr;
+    padding-left: 5%;
+}
+
+.client-text {
+    text-align: center;
+    font-size: 19px;
+    font-family: "DM Sans", sans-serif;
+    ;
+}
+
+.client-name {
+    padding-top: 4%;
+    color: rgb(77, 79, 72);
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+}
+
+.clients-photo {
+    margin-top: 3%;
+}

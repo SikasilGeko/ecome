@@ -1,0 +1,67 @@
+.Section-3 {
+    display: flex;
+    height: 600px;
+    margin-top: 10%;
+
+}
+
+
+
+
+.image-3 {
+    flex: 1;
+    height: 580px;
+}
+
+.text-section-3 {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.inner-text-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding-right: 30%;
+    padding-left: 10%;
+    padding-top: 2%;
+
+
+}
+
+h6 {
+    font-size: 24px;
+    font-family: "Unna", serif;
+    font-weight: 400;
+
+}
+
+.Title-story2 {
+    font-size: 30px;
+    font-family: "Unna", serif;
+    font-weight: 400;
+}
+
+
+
+.text-story {
+    font-family: "Unna", serif;
+    color: rgb(77, 79, 72);
+    font-size: 18px;
+}
+
+.text-story2 {
+    font-family: "Unna", serif;
+    color: rgb(77, 79, 72);
+    font-size: 22px;
+}
+
+.text-story1 {
+    font-family: "Unna", serif;
+    color: rgb(77, 79, 72);
+    font-size: 18px;
+
+}

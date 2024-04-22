@@ -1,0 +1,313 @@
+p {
+    color: rgb(77, 79, 72);
+    line-height: 1.7;
+}
+
+
+body {
+
+
+    margin: 0;
+    background-color: rgb(244, 246, 243);
+}
+
+.image-1 {
+    margin-top: -20px;
+    width: 100%;
+}
+
+
+.text-2 {
+    color: rgb(77, 79, 72);
+    font-size: 19px;
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    font-family: "PT Serif", serif;
+}
+
+
+h3 {
+    font-family: "PT Serif", serif;
+}
+
+h6 {
+    font-size: 30px !important;
+    font-family: "PT Serif", serif;
+}
+
+.nashaist {
+    font-size: 19px;
+    font-family: "Roboto", sans-serif;
+}
+
+.avtor {
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    font-size: 19px;
+}
+
+.gergana {
+    letter-spacing: 2px;
+    font-size: 17px;
+}
+
+.sobstwenik {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 80px;
+    border: 1px;
+    border-color: rgb(234, 234, 234);
+    border-style: solid;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.div-opcii {
+    display: flex;
+    margin-right: 4%;
+    width: 24%;
+    box-sizing: border-box;
+}
+
+.logo {
+    padding-left: 2%;
+    font-size: 40px;
+    font-family: "PT Serif", serif;
+}
+
+.tire {
+    color: #76ce3c;
+    font-size: 40px;
+
+}
+
+
+
+.Nachalo {
+    padding-right: 6%;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    text-wrap: nowrap;
+    font-family: "PT Serif", serif;
+}
+
+.Pazaruvaituk {
+    font-size: 30px;
+    text-wrap: nowrap;
+    text-decoration: none;
+    color: black;
+    font-family: "PT Serif", serif;
+}
+
+
+
+.Zanas {
+    text-wrap: nowrap;
+    font-size: 30px;
+    padding-left: 6%;
+    padding-right: 18px;
+    font-family: "PT Serif", serif;
+    text-decoration: none;
+    color: black;
+}
+
+.grid-izob {
+    padding-top: 120px;
+}
+
+.Cart-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dropdown-toggle {
+    background-color: rgb(92, 151, 53) !important;
+    border: 0 !important;
+    border-style: solid;
+    width: 90px;
+
+}
+
+.dropdown {
+    border: 0;
+    border-style: solid;
+    width: 50px;
+}
+
+.tires {
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+
+
+@media only screen and (max-width: 575px) and (min-width: 100px) {
+    .div-opcii {
+        display: none !important;
+        padding-right: 2%;
+    }
+
+    .logo {
+
+        font-size: 25px;
+        font-family: "Unna", serif;
+        display: flex;
+        color: black;
+    }
+
+    .white {
+        background-color: white;
+
+        margin-top: 5%;
+
+
+    }
+
+    .cena-koli {
+        display: inline-block;
+        font-size: 16px;
+        color: rgb(92, 151, 53);
+        font-weight: 600;
+        text-decoration: none;
+    }
+}
+
+
+@media only screen and (max-width: 539px) and (min-width: 417px) {
+    .kkkkkk {
+        margin-left: 10px !important;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 418px) and (min-width: 100px) {
+    .kkkkkk {
+        margin-left: 20px !important;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 2632px) and (min-width: 2376px) {
+
+
+
+
+    .div-opcii {
+        display: flex;
+
+        width: 20%;
+        box-sizing: border-box;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 2376px) and (min-width: 2120px) {
+
+
+
+
+
+    .div-opcii {
+        display: flex;
+        margin-right: 5%;
+        width: 23%;
+        box-sizing: border-box;
+    }
+
+
+
+
+
+}
+
+
+
+@media only screen and (max-width: 2120px) and (min-width: 17600px) {
+
+
+
+
+
+
+    .div-opcii {
+        display: flex;
+        margin-right: 9%;
+        width: 24%;
+        box-sizing: border-box;
+    }
+
+
+
+
+}
+
+
+@media only screen and (max-width: 1759px) and (min-width: 1640px) {
+
+
+
+
+    .div-opcii {
+        display: flex;
+        margin-right: 11%;
+        width: 24%;
+        box-sizing: border-box;
+    }
+
+}
+
+
+@media only screen and (max-width: 1639px) and (min-width: 1545px) {
+
+
+
+
+    .div-opcii {
+        display: flex;
+        margin-right: 13%;
+        width: 24%;
+        box-sizing: border-box;
+    }
+
+
+}
+
+@media only screen and (max-width: 1543px) and (min-width: 100px) {
+
+
+    .cena-koli {
+        display: inline-block;
+        font-size: 16px;
+        color: rgb(92, 151, 53);
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+
+    .div-opcii {
+        display: flex;
+        margin-right: 17%;
+        width: 24%;
+        box-sizing: border-box;
+    }
+}

@@ -1,0 +1,411 @@
+body {
+  background-color: rgb(244, 246, 243);
+  margin: 0;
+}
+
+.white {
+  background-color: white;
+
+  margin-top: 3%;
+
+}
+
+.header {
+  background-color: white;
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+
+.Nachalo {
+  padding-right: 6%;
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+  text-wrap: nowrap;
+  font-family: "PT Serif", serif;
+}
+
+.Pazaruvaituk {
+  font-size: 30px;
+  text-wrap: nowrap;
+  text-decoration: none;
+  color: black;
+  font-family: "PT Serif", serif;
+}
+
+
+.Cart-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.Zanas {
+  text-wrap: nowrap;
+  font-size: 30px;
+  padding-left: 6%;
+  padding-right: 18px;
+  font-family: "PT Serif", serif;
+  text-decoration: none;
+  color: black;
+}
+
+
+
+
+.div-opcii {
+  display: flex;
+  margin-right: 4%;
+  width: 24%;
+  box-sizing: border-box;
+}
+
+
+
+
+.logo {
+  padding-left: 29px;
+  font-size: 40px;
+  font-family: "Unna", serif;
+  display: flex;
+}
+
+.header-sorting {
+  display: flex;
+  justify-content: space-between;
+}
+
+.result {
+  font-size: 15;
+  padding-left: 10%;
+  padding-top: 2%;
+  font-family: "DM Sans", sans-serif;
+}
+
+.sort {
+  font-size: 15;
+  padding-right: 10%;
+  padding-top: 2%;
+  font-family: "DM Sans", sans-serif;
+}
+
+.Nachalomagazin {
+  font-size: 15;
+  padding-left: 10%;
+  padding-top: 7%;
+  font-family: "DM Sans", sans-serif;
+  color: rgb(119, 119, 119);
+}
+
+.grid {
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+.product-1 {
+  background: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.image-div-product {
+  width: 100%;
+  display: block;
+}
+
+
+.image-product {
+  width: 100%;
+  display: block;
+}
+
+.image-product {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.text-div-product {
+  padding: 10px;
+}
+
+.stars {
+  font-size: 170%;
+}
+
+
+.product-name2 {
+  font-size: 19px;
+  text-decoration: none;
+}
+
+.product-firm2 {
+  font-size: 15px;
+}
+
+.product-price2 {
+  font-size: 14px;
+}
+
+
+.zaglavie {
+  font-size: 24px;
+}
+
+.dropdown-toggle {
+  background-color: rgb(92, 151, 53);
+  border: 0;
+  border-style: solid;
+  width: 90px;
+
+}
+
+.Plants {
+  padding-left: 10%;
+
+}
+
+
+.dropdown {
+  border: 0;
+  border-style: solid;
+  width: 50px;
+}
+
+.tire {
+  width: 30px;
+  height: 3px;
+  background-color: black;
+  margin: 6px 0;
+}
+
+
+
+@media only screen and (max-width: 575px) and (min-width: 100px) {
+  .div-opcii {
+    display: none !important;
+    padding-right: 2%;
+  }
+
+
+  .logo {
+
+    font-size: 25px;
+    font-family: "Unna", serif;
+    display: flex;
+    color: black;
+  }
+
+  .white {
+    background-color: white;
+
+    margin-top: 5%;
+
+
+  }
+
+  .cena-koli {
+    display: inline-block;
+    font-size: 16px;
+    color: rgb(92, 151, 53);
+    font-weight: 600;
+    text-decoration: none;
+  }
+}
+
+
+@media only screen and (max-width: 280px) and (min-width: 100px) {
+  .image-div-product {
+    width: 90%;
+    display: block;
+  }
+}
+
+
+@media only screen and (max-width: 375px) and (min-width: 100px) {
+
+
+  .Big-header {
+    font-size: 50;
+    font-family: "Unna", serif;
+  }
+
+}
+
+@media only screen and (max-width: 2632px) and (min-width: 2376px) {
+
+
+
+
+  .div-opcii {
+    display: flex;
+
+    width: 20%;
+    box-sizing: border-box;
+  }
+
+
+
+}
+
+@media only screen and (max-width: 2376px) and (min-width: 2120px) {
+
+
+
+
+  .div-opcii {
+    display: flex;
+    margin-right: 5%;
+    width: 23%;
+    box-sizing: border-box;
+  }
+
+
+
+}
+
+@media only screen and (max-width: 2120px) and (min-width: 1760px) {
+
+
+
+
+  .div-opcii {
+    display: flex;
+    margin-right: 9%;
+    width: 24%;
+    box-sizing: border-box;
+  }
+
+
+
+}
+
+
+@media only screen and (max-width: 1759px) and (min-width: 1640px) {
+
+
+
+
+  .div-opcii {
+    display: flex;
+    margin-right: 11%;
+    width: 24%;
+    box-sizing: border-box;
+  }
+
+
+
+}
+
+@media only screen and (max-width: 1639px) and (min-width: 1545px) {
+
+
+
+
+  .div-opcii {
+    display: flex;
+    margin-right: 13%;
+    width: 24%;
+    box-sizing: border-box;
+  }
+
+
+
+}
+
+@media only screen and (max-width: 1543px) and (min-width: 100px) {
+
+
+
+
+  .div-opcii {
+    display: flex;
+    margin-right: 17%;
+    width: 24%;
+    box-sizing: border-box;
+  }
+
+
+
+}
+
+
+@media only screen and (max-width: 2376px) and (min-width: 2120px) {
+
+
+
+
+
+  .cena-koli {
+    display: inline-block;
+    font-size: 16px;
+    color: rgb(92, 151, 53);
+    font-weight: 600;
+    text-decoration: none;
+  }
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1860px) and (min-width: 1620px) {
+
+
+
+
+
+  .cena-koli {
+    display: inline-block;
+    font-size: 16px;
+    color: rgb(92, 151, 53);
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+
+}
+
+
+@media only screen and (max-width: 1619px) and (min-width: 1532px) {
+
+
+
+
+
+  .cena-koli {
+    display: inline-block;
+    font-size: 16px;
+    color: rgb(92, 151, 53);
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+}
+
+
+@media only screen and (max-width: 1532px) and (min-width: 100px) {
+
+
+
+
+  .cena-koli {
+    display: inline-block;
+    font-size: 16px;
+    color: rgb(92, 151, 53);
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+}

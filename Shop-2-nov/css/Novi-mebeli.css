@@ -1,0 +1,126 @@
+.New-products-flex {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+
+}
+
+.Novi-mebeli {
+    font-size: 35px;
+    font-family: "Unna", serif;
+}
+
+.sadar {
+    justify-content: center;
+    align-items: center;
+}
+
+.Novi-mebeli-button {
+    font-size: 19px;
+    background-color: rgb(92, 151, 53);
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    width: 160px;
+    align-items: center;
+    border: 1px, white, solid;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    cursor: pointer;
+    height: 50px;
+}
+
+.grid-pdoducts {
+    margin-top: 3%;
+
+
+}
+
+
+.product-1 {
+
+    display: flex;
+
+    flex-direction: column;
+    width: auto;
+
+}
+
+.image-div-product {
+    max-width: 380;
+    max-height: 580;
+}
+
+.image-product {
+    max-width: 400;
+    max-height: 600;
+}
+
+
+
+
+.text-div-product {
+    flex: 1fr;
+
+
+}
+
+.product-name2 {
+    padding-bottom: 10px;
+
+    font-size: 18px;
+    font-family: DM Sans, sans-serif;
+}
+
+.product-firm2 {
+    color: rgb(77, 79, 72);
+    font-size: 17px;
+    font-family: "DM Sans", sans-serif;
+
+}
+
+.product-price2 {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "DM Sans", sans-serif;
+
+}
+
+.product-firm {
+    margin-top: -20px;
+    ;
+}
+
+
+@media only screen and (max-width: 411px) and (min-width: 100px) {
+    .Novi-mebeli {
+        font-size: 20px;
+        font-family: "Unna", serif;
+
+    }
+
+    .Novi-mebeli-button {
+        font-size: 15px;
+        background-color: rgb(92, 151, 53);
+        color: white;
+        font-family: "DM Sans", sans-serif;
+        width: 130px;
+        align-items: center;
+        border: 1px, white, solid;
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+        cursor: pointer;
+        height: 40px;
+        display: none;
+    }
+
+
+    .New-products-flex {
+        display: flex;
+        justify-content: center;
+        padding-top: 5%;
+
+    }
+
+}

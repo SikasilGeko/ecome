@@ -1,0 +1,119 @@
+.footer {
+    background-color: rgb(20, 26, 15);
+    height: 40vh;
+}
+
+.flex-footer {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.flex-1 {
+    font-size: 20px;
+    color: white;
+    margin-right: 5%;
+}
+
+
+.flex-2 {
+    font-size: 20px;
+    color: white;
+}
+
+.flex-3 {
+    font-size: 20px;
+    color: white;
+    margin-left: 5%;
+}
+
+
+.flex-footer-2 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.flex-4 {
+    color: white;
+    font-size: 22px;
+    font-family: "PT Serif", serif;
+    ;
+}
+
+button {
+    background-color: rgb(92, 151, 53);
+    color: white;
+    border: none;
+    width: 160px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.text {
+    width: 420px;
+    height: 50px;
+}
+
+.social-media-footer {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 40px;
+}
+
+.face {
+    margin-right: 5%;
+    font-size: 30px;
+}
+
+.inst {
+    font-size: 30px;
+}
+
+.goog {
+    margin-left: 5%;
+    font-size: 30px;
+}
+
+.fa {
+    color: white;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 585px) and (min-width: 466px) {
+    input {
+        width: 300px;
+        height: 50px;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 465px) and (min-width: 366px) {
+    input {
+        width: 200px;
+        height: 50px;
+    }
+
+
+}
+
+@media only screen and (max-width: 366px) and (min-width: 100px) {
+
+    input {
+        width: 150px;
+        height: 50px;
+    }
+
+    button {
+        background-color: rgb(92, 151, 53);
+        color: white;
+        border: none;
+        width: 100px;
+        height: 50px;
+
+    }
+
+}
